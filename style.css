@@ -153,5 +153,23 @@ button:hover {
 }
 
 
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .content {
+        margin: 0;
+        
+    }
+
+    .container > img {
+        width: 100%;
+        margin: auto;
+        padding: 10px 0;
+    }
+}
+
 
 
