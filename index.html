@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="text/javascript"></script>
+    <title>Odin's Project</title>
+</head>
+<body>
+    <div class="container">
+        <img src="images/background-short.jpg" alt="">
+        
+        <div class="content">
+            <h1>Sign Up</h1>
+
+            <form action="." method="post">
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" placeholder="First Name" id="firstName" required>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" placeholder="Last Name" id="lastName" required>
+                </p>
+                <p>
+                    <label for="email">e-mail:</label>
+                    <input type="email" name="email" placeholder="Email" id="email">
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name="phone" placeholder="Phone Number" id="phone" title="Format: 123-456-7890">
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Password" id="password" minlength='8' required>
+                </p>
+                <p>
+                    <label for="confPassword">Confirm Password:</label>
+                    <input type="password" name="confPassword" placeholder="Password" id="confPassword" minlength='8' required>
+                </p>
+                
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
