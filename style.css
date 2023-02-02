@@ -135,6 +135,7 @@ form {
 .btn {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 10px;
 }
 
@@ -150,6 +151,20 @@ button:hover {
     color: white;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn > p {
+    font-size: 1.2rem;
+}
+
+a {
+    margin: 0 5px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover {
+    margin: 0 5px;
+    color: rgb(255, 255, 255);
 }
 
 
