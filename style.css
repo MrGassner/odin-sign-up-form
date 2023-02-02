@@ -172,6 +172,7 @@ a:hover {
     .container {
         flex-direction: column;
         padding: 10px;
+        margin: 10px auto;
     }
 
     .content {
