@@ -1,4 +1,4 @@
-# odin-sign-up-form
+# The Odin Project: Sign-up Form
 
 This is a basic log in page with front end validations on the forms, javascript is only used to check
 if the password entries match.
